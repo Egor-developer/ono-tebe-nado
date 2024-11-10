@@ -1,1 +1,0 @@
-https://github.com/Egor-developer/ono-tebe-nado

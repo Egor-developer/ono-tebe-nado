@@ -55,7 +55,7 @@
   margin-top: 5px;
 }
 
-.address a {
+.address .address__link {
   border-bottom: 1px solid #000;
   text-decoration: none;
 }
@@ -80,7 +80,7 @@
 }
 
 .cover__title {
-  padding: 173px 50px 135px;
+  padding: 165px 50px 135px;
   color: #fff;
   font-size: 100px;
   line-height: 100px;
@@ -90,12 +90,13 @@
 
 .aligned-text {
   display: block;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
+  line-height: 115px;
 }
 
 .aligned-text_center {
   display: block;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -131,11 +132,13 @@
   border: 1px solid #fff;
   padding: 12px 32px 11px 31px;
   color: #fff;
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 25.83px;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -176,28 +179,25 @@
   justify-content: space-between;
   height: 100%;
   color: #fff;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
   margin: 51px 40px 0;
+  font-weight: 700;
   font-size: 22px;
   line-height: 26.4px;
   text-decoration: underline 1px #fff;
@@ -207,7 +207,6 @@
 
 .card__text {
   margin: 0 40px 48px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 }
@@ -216,7 +215,6 @@
   display: inline-block;
   margin-top: 30px;
   margin-left: 40px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 23.48px;
   text-decoration: underline 1px #000;
@@ -230,6 +228,7 @@
 }
 
 .about__logo {
+  display: flex;
   justify-self: center;
   width: 240px;
   height: 240px;
@@ -241,8 +240,7 @@
 .about__logo-image {
   width: 148px;
   height: 114px;
-  margin-top: 64px;
-  margin-left: 46.5px;
+  margin: auto;
 }
 
 .about__title {
@@ -259,7 +257,6 @@
   gap: 24px;
   margin-top: 100px;
   margin-left: 25px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 1%;
@@ -281,7 +278,6 @@
 
 .footer__menu-link {
   border-bottom: 1px solid #000;
-  font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
   text-decoration: none;
@@ -293,7 +289,9 @@
 
 .footer__social-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 48px;
+  width: 240px;
   list-style: none;
 }
 
